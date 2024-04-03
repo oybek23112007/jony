@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,li{
+    list-style: none;
+}
+ul,li{
+    list-style: none;
+}
+.container{
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0px 49.5px;
+}
+body{
+    background: #FFF;
+}
+@import"_navbar.scss";
+@import"_main.scss";
+@import"_footer.scss";

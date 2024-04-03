@@ -1,0 +1,250 @@
+.end{
+    height: 240px;
+}
+.end-content{
+    display: flex;
+    gap: 277px;
+}
+.end-content-box{
+    width: 384px;
+    height: 148px;
+    margin-top: 54px;
+}
+.end-content-box-title{
+    color: #000;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 126.688%; /* 17.736px */
+margin-bottom: 10px;
+}
+.end-content-boss{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 34px;
+}
+.end-boss{
+    width: 72px;
+    height: 68px;
+}
+.end-boss-text{
+    color: var(--text-color, #414141);
+    font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 126.688%; /* 17.736px */
+margin-bottom: 7px;
+cursor: pointer;
+}
+
+.end-boss1{
+    width: 113px;
+    height: 68px;
+}
+.end-boss2{
+    width: 101px;
+    height: 68px;
+}
+.hero{
+    display: flex;
+    gap: 30px;
+}
+.hero-text{
+    color: #D74444;
+    font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+cursor: pointer;
+line-height: 126.688%; /* 17.736px */
+}
+.hero-text:nth-child(2){
+    color: var(--text-color, #414141);
+    font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 126.688%; /* 17.736px */
+cursor: pointer;
+}
+.end-LM{
+    width: 501px;
+    height: 153px;
+    margin-top: 49px;
+}
+.end-LM-logo{
+    color: #000;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+font-size: 42px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+padding-bottom: 20px;
+}
+.end-LM-text{
+    color: var(--text-color, #414141);
+text-align: right;
+font-family: 'Roboto', sans-serif;
+padding-left: 300px;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 126.688%; /* 17.736px */
+padding-bottom: 29px;
+}
+.end-LM-box{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 511px;
+    height: 18px;
+}
+.end-LM-boss{
+    display: flex;
+    gap: 10px;
+}
+.end-LM-boss-text{
+    color: var(--text-color, #414141);
+    font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 126.688%; /* 17.736px */
+}
+@media screen and (max-width:834px){
+    .end-content {
+        display: flex;
+        gap: 0px;
+        /* justify-content: center; */
+    }
+    .end-content {
+        display: flex;
+        gap: 0px;
+        align-items: center;
+        
+    }
+    .end-content-box {
+        width: 304px;
+        height: 148px;
+        margin-top: 54px;
+        
+    }
+    .end-LM-box {
+        
+        gap: 30px;
+        
+        width: 381px;
+        height: 18px;
+    }
+    .end-LM-box img{
+        
+        height: 12px;
+    }
+    .end-boss-text {
+        
+        font-size: 10px;
+        
+    }
+    .end-content-boss {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 14px;
+    }
+    .end-LM-logo {
+        
+        text-align: left;
+        
+        font-size: 42px;
+        
+        padding-bottom: 20px;
+    }
+    .end-LM-text {
+       
+        text-align: left;
+        
+        padding-left: 0px;
+        font-size: 14px;
+        padding-bottom: 29px;
+    }
+    .end-LM-boss-text {
+        
+        font-size: 10px;
+        
+    }
+    .end-LM {
+        margin: 0 auto;
+        width: 381px;
+        height: 153px;
+        margin-top: 49px;
+    }
+}
+@media screen and (max-width:623px){
+    .end-content {
+        display: flex;
+        gap: 0px;
+        /* justify-content: center; */
+    }
+    .end-content {
+        display: flex;
+        gap: 0px;
+        align-items: center;
+        
+    }
+    .end-LM {
+        margin: 0 auto;
+        width: 381px;
+        height: 153px;
+        margin-top: 49px;
+    }
+    .end-content-box {
+        width: 304px;
+        height: 148px;
+        margin-top: 54px;
+        
+    }
+    .end-LM-box {
+        
+        gap: 30px;
+        
+        width: 324px;
+        height: 18px;
+    }
+    .end-LM-box img{
+        
+        height: 10px;
+    }
+    .end-boss-text {
+        
+        font-size: 10px;
+        
+    }
+    .end-content-boss {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 14px;
+    }
+    .end-LM-logo {
+        
+        text-align: left;
+        
+        font-size: 42px;
+        
+        padding-bottom: 20px;
+    }
+    .end-LM-text {
+       
+        text-align: left;
+        
+        padding-left: 0px;
+        font-size: 14px;
+        padding-bottom: 29px;
+    }
+    .end-LM-boss-text {
+        
+        font-size: 8px;
+        
+    }
+}
